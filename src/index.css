@@ -1,13 +1,96 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+/* Navbar Component */
+
+/* Header */
+.header-nav{
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  background-color: #F7F8F8;
+  margin:auto;
+  height:8vh;
 }
+.header-ul{
+  display:flex;
+  justify-content: center;
+  gap:10px;
+  list-style: none;
+  align-items: center;
+  padding-top:5px;
+}
+.header-li{display: flex;align-items: center;justify-content: center;}
+
+
+h1{font-family: 'Modak', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Sniglet', cursive;
+  size:16px;
+}
+
+select{
+padding: 10px;
+width:15vw;
+height:6vh;
+background-color:white;
+border: 2px solid black;
+border-radius: 3px;
+outline:none;
+}
+
+
+
+input{
+  padding:10px;
+  border: 2px solid black;
+  border-radius: 3px 0 0 3px;
+  width:30vw;
+  height:6vh;
+  outline:none;
+}
+i{background-color:black;
+  color:white;
+  height:6vh;
+  padding:10px;
+  border-radius: 0 3px 3px 0;
+  }
+
+a{
+  color: black;
+  margin-left: 0;
+}
+
+
+/*Car - MoterCycle - Mobiles*/
+.nav-box{box-shadow:0 -1px 0 rgba(0,0,0,0.1);margin-top: 1px;}
+.ul-box{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+label{font-weight:bold;}
+.select-box{
+  border:none;
+  width:0;
+  background: none;
+}
+
+.li-box{
+  /* background-color: chartreuse; */
+  list-style: none;
+  padding:20px 5px;
+  text-decoration: none;
+}
+li:hover{
+  color:#25AAB8;
+}
+
+
+
+/* Car Page */
+.car-page{color:yellowgreen;}
